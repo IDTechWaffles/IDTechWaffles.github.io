@@ -1,0 +1,24 @@
+<html>
+    
+    <head><title> Crazy Ideas </title></head>
+    
+    <body>
+   
+        <h1 style="color:deepskyblue">WELCOME TO THIS PAGE!</h1>
+        <h1 style="color:deepskyblue">This is the one and only page that you'll have fun </h1>
+       
+        
+        <script>
+      var flag=true
+       while(flag==true){
+            var grape_Juice =prompt("whats my name")
+            if(grape_Juice=="Thadeus") {
+                flag=false
+                alert( "nice job")
+            }  
+       }
+
+           
+        </script>
+        
+        </html>

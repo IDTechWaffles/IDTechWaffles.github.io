@@ -1,0 +1,53 @@
+<html>
+    
+        <body>
+            <button onclick="dragon()">attack</button>   
+                     
+            <img src="images.jpg">
+                <script>
+        var dh =10      
+                    function dragon(){
+         var ph =10               
+                        var fggf = Math.random()
+                      if(fggf<0.70){
+                          alert("dragon hit subtract one point")
+                          dh=dh-1
+                          alert(dh) 
+                          if (dh==0){
+                              alert ("you win dragon dies")
+                          }
+                      }  
+                else{alert("you miss.dragon earns one point.add  one point to health")
+                     dh=dh+1
+                     alert(dh)
+                    }   
+
+                    } 
+                  
+                   var fggf = Math.random()
+                      if(fggf<0.30){
+                          alert("dragon misses")
+                          ph=ph-1
+                          alert(dh) 
+                          if (dh==0){
+                              alert ("you lose dragon wins")
+                          }
+                      }      
+                   
+                     else{alert("dragon hits you subtract one point.")
+                     ph=ph+1
+                     alert(dh)
+                    }   
+                    
+                    
+    
+   
+    
+    
+                    
+    
+    
+    
+                </script>
+        </body>
+</html>

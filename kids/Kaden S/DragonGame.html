@@ -1,0 +1,65 @@
+<body>
+<button onclick="Attack()">
+    Attack
+    </button>
+
+    <button onclick="CheckHealth()">Check Health</button>
+   <img src="download.jpg">
+    
+<script>
+    var PlayerHealth= 12
+    var DragonHealth= 12
+    
+    function Attack(){
+        var Random= Math.random()
+        if(Random > .25){
+            alert("Hit Dragon for 3 damage!")
+            DragonHealth= DragonHealth-3
+                if(DragonHealth < 1){
+                    while(true){
+                        alert("You won!")    
+                    }
+                }
+        }
+                else{
+                    alert("Missed Dragon")
+                }
+    
+        
+       
+        var DragonRandom= Math.random()
+        if(DragonRandom > .25){
+            alert("Dragon hit you for 2 damage!")
+            PlayerHealth=PlayerHealth-2
+                if(PlayerHealth < 1){
+                    while(true){
+                        alert("You lost!")
+                    }
+                }
+        }
+        else{
+            alert("Dragon missed")
+        }
+        
+     
+    }
+    
+    
+    
+    
+    function CheckHealth(){
+           alert("Player health =")
+        alert(PlayerHealth)
+        
+        
+        alert("Dragon health =")
+        alert(DragonHealth)
+        
+        
+    }
+    </script>
+
+
+
+
+</body>

@@ -1,0 +1,18 @@
+ 
+ <html>
+    
+    <head><title> Crazy Ideas </title></head>
+    
+    <body>
+    
+       
+        <h1 Thank you for playing </h1>
+        <script>
+      
+        
+        var Apple_Juice =prompt("find the pizza")
+        if(Apple_Juice=="pizza") {
+            alert( "you found a pizza")
+        }  
+        </script>
+        

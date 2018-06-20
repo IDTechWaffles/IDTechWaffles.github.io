@@ -1,0 +1,21 @@
+<html>
+<title>Choose Your Own Adventure: Fortnite</title>
+<script>
+alert("Today, you will be playing Fortnite Battle Royale. Good luck.")
+var No=''
+    while (No != "Solo" && No != "Duo" && No != "Squad") {
+    No = prompt("Would you like to play Solo, Duo or Squad?");
+  }
+ 
+if (No == "Solo"){
+prompt("You picked Solo. Would you like to land at Tilted Towers, Dusty Divot, or Risky Reels?")
+}
+
+ 
+    
+    
+    
+    
+    
+</script>
+</html>

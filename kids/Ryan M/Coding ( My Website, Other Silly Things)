@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>
+My Website: Fun Games, Fun Links
+</title>   
+</head>
+    <style>
+        
+    body {
+        background-image: url("https://images8.alphacoders.com/877/thumb-1920-877849.jpg");
+        background-size: cover;
+    }
+        
+    </style>
+<body>
+<script>
+var_hacker=prompt ("Type Potato to Reveal a Website!" )
+if (hacker=="Potato"){
+alert("oh, you typed Potato")
+} 
+alert("Oh_No")
+
+ </script>
+    </body>  
+    </html>
+    <h1 style="color:orchid">WELCOME TO MY WEBSITE!</h1>
+     <h1 style="color:orchid">Hi, Welcome To My Website. Wanna Know What It Does? Ok, Ill Tell You... My Website is a Website in which many fun games and links are downloaded on to save your time, making it easy to sign up for games and websites. </h1>
+     <h1 style="color:orchid">Have fun! My Website is a free website, so dont see the urge to think that you cant get all games free.</h1>
+ <h1 style="color:orchid">We also have login links for many games, as well as we have registration links as well.</h1>
+  <h1 style="color:orchid">Fortnite:</h1>
+  <h1 style="color:orchid">Roblox:</h1>
+  <h1 style="color:orchid">Minecraft:</h1>
+  <h1 style="color:orchid">Steam:</h1>

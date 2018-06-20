@@ -1,0 +1,13 @@
+<html>
+    
+    <head><title> Congragulation </title></head>
+    
+    <body>
+     var right =prompt("right or left")
+        if(correct=="right") {alert( "correct")}  
+        </script>
+        
+       
+    <body>
+        
+        <html>

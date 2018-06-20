@@ -1,0 +1,64 @@
+<html>
+<title> Legend of Zelda</title>
+
+  
+    <body>
+    <button onclick = "attack()"> ATTACK!!!!</button>
+   <button onclick = "defend()">Defend</button>
+    <script>
+    var x=100
+    var HP=50
+    alert("You HP is at " + HP)
+    function attack(){
+        var number1 = Math.random();
+        if(number1<0.75){
+            x=x-10
+            alert("You dealt 10 damage to the dragon")
+            alert("dragons health is at " + x)
+        }
+        else{
+            alert("missed")
+        }
+        var dragon1 = Math.random();
+        if(dragon1<0.1){
+            x=x+30
+            alert(x)
+
+        }
+        if(dragon1>.25){
+            HP=HP-5
+            alert("the dragon dealt 5 damage to you")
+            alert("your health is at " + HP)
+        }
+        
+    }
+        function defend(){
+            var defend1= Math.random();
+            if(defend1>0.5){
+                HP=HP+10
+                alert("you have gained health")
+                alert("Your health is at " + HP)}
+            else{
+                alert("failed to heal")
+            }
+            var dragon2 = Math.random();
+            if(dragon2<0.1){
+                x=x+30
+                alert("the dragon has gained health")
+                alert("the dragons health is at " + x )
+            }
+            if(dragon2>0.5)
+                HP=HP-10
+            alert("the dragon has hit you")
+            alert("Your health is at " + HP)
+        }
+       while(true){ if(HP==0){
+            while(true){
+                alert("G-G-G-G-G-GAME OVER")
+            }
+       }
+        }
+    </script>
+    </body>
+<img src="dragon.png">
+</html>

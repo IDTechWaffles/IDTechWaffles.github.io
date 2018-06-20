@@ -1,0 +1,94 @@
+<html>
+    
+<style>   body{background-image: url("Cave.jpg")
+        }
+</style>
+<script>
+       alert("Your sister is in trouble! A dragon threats her life")
+
+var hardChecker = 2
+var easyChecker = 2
+var dragonMax = 10
+var humanMax = 10
+var humanHealth = 30
+var dragonHealth = 50
+
+function short(){
+    humanHealth = humanHealth - 10
+    dragonHealth = dragonHealth - 10
+    alert("Short is now in play")
+
+    
+}
+function medium(){
+    dragonMax = dragonMax + 0
+    humanMax = humanMax - 0
+    dragonHealth = dragonHealth + 0
+    humanHealth = humanHealth - 0
+
+    alert("Medium is now in play")
+
+}
+
+function hard(){
+    dragonMax = dragonMax + 8
+    humanMax = humanMax - 8
+    dragonHealth = dragonHealth + 10
+    humanHealth = humanHealth - 10
+
+    alert("Hard is now in play")
+
+}
+
+function easy(){
+    dragonMax = dragonMax - 6
+    humanMax = humanMax + 6
+    dragonHealth = dragonHealth - 12
+    humanHealth = humanHealth + 12
+
+        alert("Easy is now in play")
+
+}
+
+function warriorTest(){
+    while(dragonHealth> 0 || humanHealth> 0){
+     var warriorRandom = Math.floor(Math.random() * humanMax);
+     var dragonRandom = Math.floor(Math.random() * dragonMax);
+        
+    
+    alert("You attacked the dragon of " + warriorRandom + " health")
+    
+    dragonHealth= dragonHealth- warriorRandom;
+    
+     alert("The dragon's health is " + dragonHealth)
+    
+       alert("The dragon attacked you of " + dragonRandom + " health")
+    
+    humanHealth= humanHealth- dragonRandom;
+    
+     alert("Your health is " + humanHealth)
+    if()
+    if(dragonHealth< 0){
+        while(true){
+            alert("You Won!")
+        }
+    }
+    
+    if(humanHealth<0){
+        while(true){
+            alert("You Lost!")}
+        }
+    
+}
+} 
+</script>
+<body>
+    <button onclick="easy()">Easy</button>
+       <button onclick="medium()">Medium</button>
+     <button onclick="hard()">Hard</button>
+         <button onclick="short()">Short</button>
+    <button onclick="warriorTest()">Start Game</button>
+    <p style="color:crimson">DO NOT CLICK ANY BUTTON TWICE </p>
+    
+</body>
+</html>
